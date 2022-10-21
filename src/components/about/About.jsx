@@ -1,14 +1,19 @@
 
 import "./about.scss"
 
+let bgStyle = {
+  backgroundImage: `url(assets/images/coverimage.png)`,
+  backgroundSize: '100% 200vh'
+}
+
 export default function About() {
 
  
   return (
-    <div className= "about" id="about">
+    <div className= "about" id="about" style={bgStyle}>
       <div className="left">
           <div className="imgContainer">
-              <img src="assets/DSC_4559.jpg" alt=""/>
+              <img src="assets/images/DSC_4559.jpg" alt=""/>
           </div>
       </div>
       <div className="right">

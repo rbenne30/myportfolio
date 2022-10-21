@@ -8,16 +8,17 @@ import "./app.scss"
 
 function App() {
   return (
-    <div className="app">
-      <Navbar/>
-      <Menu/>
-      <div className="sections">
+    <div className="app" >
+      {/* <img id='bg' src={bg} alt='background' /> */}
+      {/* <Navbar/> */}
+      {/* <Menu/> */}
+      {/* <div className="sections"> */}
         <About/>
-        <Contact/>
-        <Skills/>
-        <Work/>
+        {/* <Contact/> */}
+        {/* <Skills/> */}
+        {/* <Work/> */}
       </div>
-    </div>
+    // </div>
   );
 }
 
