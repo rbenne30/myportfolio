@@ -1,0 +1,47 @@
+.skills {
+    position: relative;
+    z-index: 2;
+    border-top: 20vh solid;
+    background-attachment: fixed;
+    background-position-x: center;
+}
+
+.skew {
+    transform: skew(pdeg, 5deg);
+    background: transparent;
+    position: relative;
+    z-index: 2;
+}
+
+.topFill {
+    height: 10vh;
+    width: 100%;
+    position: absolute;
+    top: -4vh;
+    transform: skew(0deg,-3deg);
+}
+
+.bottomFill{
+    height: 10vh;
+    width: 100%;
+    position: absolute;
+    bottom: -10vh;
+    transform: skew(0deg,-0deg);
+    z-index: 1;
+}
+
+.icons {
+    position: relative;
+    display: flex;
+    z-index: 1;
+    background: black;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    border-top: 10vh solid;
+}
+
+.iconDiv label {
+    border: 2px solid black;
+    
+}
