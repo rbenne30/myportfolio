@@ -36,6 +36,7 @@ export default function About() {
       <a href="#about" class="fa-regular"><i class="fa-regular fa-id-badge"></i></a>
       <a href="#work" class="fa-solid"><i class="fa-solid fa-copy"></i></a>
       <a href="#contact" class="fa-solid"><i class="fa-solid fa-mobile-screen-button"></i></a>
+      <a href="#resume" class="fa-solid"><i class="fa-regular fa-file"></i></a>
 
       <div className="row">
         <div className="imgContainer">
