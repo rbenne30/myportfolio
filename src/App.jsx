@@ -4,14 +4,19 @@ import About from "./components/about/About";
 import Skills from './components/Skills/Skills';
 import Contact from "./components/contact/Contact";
 import bg1 from './components/work/images/Cover-Image2.jpg';
+// import Banner from "./components/banner/Banner";
+import Resume from './components/resume';
 
 function App() {
   return (
     <div className="app">
-      {/* <Skills topColor="#2b7fb7" banner = "Applications" bottomColor='#3e6dc9' bg={bg1} /> */}
       <About/>
+      <Skills topColor="#708090" banner = "Applications" bottomColor='orange' bg={bg1} />
       <Work/>
+      <Skills topColor="orange" banner = "Contact" bottomColor='#575757' bg={bg1} />
       <Contact/>
+      <Skills topColor="#708090" banner = "Resume" bottomColor='#575757' bg={bg1} />
+      <Resume />
     </div>
   );
 }
