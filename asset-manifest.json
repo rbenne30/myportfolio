@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/rbenne30/myportfolio/static/css/main.2b69d816.css",
+    "main.js": "/rbenne30/myportfolio/static/js/main.d54d7c34.js",
+    "static/media/hidden-gems.png": "/rbenne30/myportfolio/static/media/hidden-gems.07b6acd46b41a556a09e.png",
+    "static/media/coverimage.png": "/rbenne30/myportfolio/static/media/coverimage.1c546a98712797b02213.png",
+    "static/media/me.png": "/rbenne30/myportfolio/static/media/me.a6b1162b1911a3363eee.png",
+    "static/media/README.png": "/rbenne30/myportfolio/static/media/README.95749b1e27f50b79400f.png",
+    "static/media/randomcat facts.png": "/rbenne30/myportfolio/static/media/randomcat facts.9658277cf662f6833b26.png",
+    "static/media/passwordgenerator.png": "/rbenne30/myportfolio/static/media/passwordgenerator.1b7d002c2670dcc9a064.png",
+    "static/media/scheduler.png": "/rbenne30/myportfolio/static/media/scheduler.a4586eca47f3051623a4.png",
+    "static/media/Cover-Image2.jpg": "/rbenne30/myportfolio/static/media/Cover-Image2.bb1776711cd0f043dc68.jpg",
+    "static/media/backgroundimagework.png": "/rbenne30/myportfolio/static/media/backgroundimagework.073ea0defcff04373c70.png",
+    "static/media/Newsbroadcast2.png": "/rbenne30/myportfolio/static/media/Newsbroadcast2.8b8e4c2d82a9cc7610d3.png",
+    "static/media/resume.pdf": "/rbenne30/myportfolio/static/media/resume.2a3a3874f948724340f1.pdf",
+    "static/media/api.png": "/rbenne30/myportfolio/static/media/api.1a05d6f4dba961455682.png",
+    "static/media/react.png": "/rbenne30/myportfolio/static/media/react.b046e3ef9aea98be6a13.png",
+    "static/media/bootstrap.png": "/rbenne30/myportfolio/static/media/bootstrap.7d080caf31514ad89c85.png",
+    "static/media/aws.png": "/rbenne30/myportfolio/static/media/aws.a6d260c8fee0b0832c39.png",
+    "static/media/html.png": "/rbenne30/myportfolio/static/media/html.525e1994eec40f2862bf.png",
+    "static/media/css.png": "/rbenne30/myportfolio/static/media/css.dc2f31898ac2fc0fb3f3.png",
+    "static/media/handlebars.png": "/rbenne30/myportfolio/static/media/handlebars.d345e7648bc258567f29.png",
+    "static/media/javaScriptXML.png": "/rbenne30/myportfolio/static/media/javaScriptXML.df5aeb8a31f119a33a39.png",
+    "index.html": "/rbenne30/myportfolio/index.html",
+    "main.2b69d816.css.map": "/rbenne30/myportfolio/static/css/main.2b69d816.css.map",
+    "main.d54d7c34.js.map": "/rbenne30/myportfolio/static/js/main.d54d7c34.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b69d816.css",
+    "static/js/main.d54d7c34.js"
+  ]
+}
