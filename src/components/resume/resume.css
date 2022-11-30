@@ -1,6 +1,14 @@
-embed {
+.resume {
+    background: #323639;
+    border-top: 20vh solid #323639;
+    position: relative;
+    z-index: 2;
+}
+
+iframe {
     position: relative;
     z-index: 1;
     width: 100%;
     height: 100vh;
-;}
+    background: #323639;
+}

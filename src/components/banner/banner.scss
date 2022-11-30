@@ -1,4 +1,4 @@
-.banner {
+.skills {
     position: relative;
     z-index: 2;
     border-top: 20vh solid;
@@ -31,7 +31,7 @@
     z-index: 1;
 }
 
-.icons {
+.iconsFill {
     position: relative;
     display: flex;
     z-index: 1;
@@ -39,7 +39,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
-    border-top: 10vh solid;
+    border-top: 15vh solid;
 }
 
 .iconDiv {

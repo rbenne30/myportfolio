@@ -1,6 +1,10 @@
 import './resume.css';
 import resume from './resume.pdf';
 
-const Resume = () => <embed id="resume" src={resume}></embed>;
+const Resume = () =>
 
-export default Resume;
+    <div className='resume'>
+        <iframe id='resume' src={resume}></iframe>;
+    </div>
+
+export default Resume; 

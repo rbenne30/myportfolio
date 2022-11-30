@@ -64,15 +64,22 @@ body {
     flex-direction: column;
     justify-content: end;
     height: 450px;
+    width: 250px;
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .me {
-    // height: 700px;
-    // height: 750px;
+    width: 250px;
     height: 450px;
-    position: fixed;
     z-index: 1;
+    position: fixed;
+    filter: brightness(1.3) drop-shadow(-2px 5px 4px black);
 }
+
 
 .paragraph {
     border: 2px solid black;
@@ -111,43 +118,58 @@ body {
 }
 
 .topDiv {
-    position: relative;
-    top: 25px;
-    height: 50px;
-    width: 90%;
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    bottom: 0px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
     background-color: black;
     z-index: 0;
-    margin: 0 auto;
     border-radius: 50%;
     border-top: none;
     border: 2px solid red;
 }
 
 .bottomDiv {
-    /* position: absolute; */
-    /* bottom: 0; */
-    height: 50px;
-    width: 90%;
+    position: absolute;
+    z-index: 2;
+    bottom: 2px;
+    height: 27px;
+    width: 99%;
+    left: 4px;
+    right: 0;
     margin: 0 auto;
-    border-radius: 0 0 50% 50%;
-    border: 2px solid red;
+    border-radius: 50%;
+    border-bottom: 4px solid red;
     border-top: none;
     background-color: black;
-    z-index: 2;
+    box-shadow: 2px 5px 13px black;
 }
 
 .extend {
     background: slategray;
-    height: 300vh;
-    position: relative;
+    height: 2500px;
+    position: absolute;
     z-index: 1;
     width: 100%;
-    bottom: 10px;
+    bottom: -2495px;
 }
 
 @media screen and (max-width: 1500px) and (orientation:portrait) {
     .aboutMe {
         display: none;
+    }
+
+    .about i {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .paragraph {
+        max-width: 370px;
     }
 }
 
@@ -163,6 +185,11 @@ body {
     .fa-mobile-screen-button {
         top: 160px;
     }
+
+    .fa-file {
+        top: 225px;
+    }
+    
     .about h1 {
         font-size: 2.5rem;
         margin: 0px;
@@ -174,9 +201,11 @@ body {
     }
 
     .imgContainer {
-        width: auto;
-        height: 545px;
+        width: 90%;
+        height: 80vh;
+        margin: 0 auto;
     }
+
     
     .imgContainer h1 {
         position: unset;
@@ -185,15 +214,16 @@ body {
         -webkit-text-stroke: 0px;
     }
 
+    .meDiv {
+        margin-top: 0px;
+    }
+
     .me {
         height: 450px;
     }
 
-    .bottomDiv, .topDiv {
-        width: 270px;
-        left: 0;
-        right: 0;
-        margin: 0 auto;
+    .extend {
+        bottom: -2500px;
     }
 
     .paragraph {
@@ -214,6 +244,11 @@ body {
 }
 
 @media screen and (max-width:950px) and (max-height:450px) and (orientation: landscape) {
+    .about h1 {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    
     .row {
         margin: auto;
         display: flex;
@@ -221,8 +256,8 @@ body {
     }
 
     .imgContainer {
-        width: 200px;
-        height: 250px;
+        width: 150px;
+        height: 220px;
     }
 
     .imgContainer h1 {
@@ -230,35 +265,32 @@ body {
     }
 
     .meDiv {
-        height: 230px;
+        left: 15px;
     }
 
     .me {
         height: 250px;
+        width: 115px;
     }
 
     .topDiv {
-        position: relative;
-        top: 16px;
-        height: 15px;
-        width: 160px;
-        background-color: black;
-        z-index: 0;
-        margin: 0 auto;
-        border-radius: 50%;
-        border-top: 2px solid red;
-        border-bottom: none;
+        bottom: -5px;
     }
 
     .bottomDiv {
-        height: 14px;
-        width: 170px;
+        bottom: -3px;
+        width: 91%;
+        height: 11%;
+        left: 4px;
+        right: 0;
         margin: 0 auto;
-        border-radius: 50% 50%;
-        border: 2px solid red;
-        border-top: none;
-        background-color: black;
-        box-shadow: 3px 8px 0px #5c5c70;
+        border-bottom: 3px solid red;
+    }
+
+    .extend {
+        bottom: -2498px;
+        width: 200px;
+        left: -30px;
     }
 
     .paragraph {

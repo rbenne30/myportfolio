@@ -3,31 +3,6 @@ import me from './images/me.png';
 import { useEffect } from 'react';
 
 export default function About() {
-  const setImgLoc = () => {
-    window.scrollTo(0, 0);
-
-    let x = 40;
-    let y = -700;
-
-    if (document.querySelector('.me').getBoundingClientRect().height < 600) {
-      y = -420;
-      x = -1;
-    };
-
-    if(window.innerHeight< 451) {
-      y = -220
-    }
-
-    let pic = document.querySelector('.me');
-    let hole = document.querySelector('.bottomDiv');
-    pic.style.left = hole.getBoundingClientRect().x + x + 'px';
-    pic.style.top = hole.getBoundingClientRect().y + y + 'px';
-    // document.querySelector('.extend').style.top = hole.getBoundingClientRect().top-150+'px';
-    // document.querySelector('.extend').style.top = '500px';
-  };
-
-  useEffect(setImgLoc);
-  window.addEventListener('orientation', setImgLoc);
 
   return (
     <div className="about" id="about">
@@ -43,10 +18,10 @@ export default function About() {
           <h1>Ryanne Bennett</h1>
           <div className="meDiv">
             <img className="me" src={me} alt="" />
-            <div className="topDiv"></div>
-            <div className="bottomDiv"></div>
           </div>
-            <div className="extend"></div>
+          <div className="topDiv"></div>
+          <div className="bottomDiv"></div>
+          <div className="extend"></div>
         </div>
 
         <div className="paragraph">
