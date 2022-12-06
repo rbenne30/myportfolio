@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.5478cdde.css",
-    "main.js": "/myportfolio/static/js/main.f83bf807.js",
+    "main.js": "/myportfolio/static/js/main.836019b7.js",
     "static/media/hidden-gems.png": "/myportfolio/static/media/hidden-gems.07b6acd46b41a556a09e.png",
     "static/media/coverimage.png": "/myportfolio/static/media/coverimage.1c546a98712797b02213.png",
     "static/media/me.png": "/myportfolio/static/media/me.a6b1162b1911a3363eee.png",
@@ -23,10 +23,10 @@
     "static/media/javaScriptXML.png": "/myportfolio/static/media/javaScriptXML.df5aeb8a31f119a33a39.png",
     "index.html": "/myportfolio/index.html",
     "main.5478cdde.css.map": "/myportfolio/static/css/main.5478cdde.css.map",
-    "main.f83bf807.js.map": "/myportfolio/static/js/main.f83bf807.js.map"
+    "main.836019b7.js.map": "/myportfolio/static/js/main.836019b7.js.map"
   },
   "entrypoints": [
     "static/css/main.5478cdde.css",
-    "static/js/main.f83bf807.js"
+    "static/js/main.836019b7.js"
   ]
 }
